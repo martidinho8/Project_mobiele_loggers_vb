@@ -1,15 +1,17 @@
 <template>
-  <hello-world />
+<div>
+  <sideview />
+</div>
 </template>
 
 <script>
-  import HelloWorld from '../components/HelloWorld'
 
+import sideview from "../components/Sideview"
+  
   export default {
     name: 'Home',
-
     components: {
-      HelloWorld,
+      sideview,
     },
   }
 </script>
