@@ -7,24 +7,16 @@
     >
       <div class="d-flex align-center">
         <v-img
-          alt="Vuetify Logo"
+          alt="Vitens Logo"
           class="shrink mr-2"
           contain
-          src="https://cdn.vuetifyjs.com/images/logos/vuetify-logo-dark.png"
+          src="../images/vitens_laatwatervoorjewerken.png"
           transition="scale-transition"
-          width="40"
-        />
-        <v-img
-          alt="Vuetify Name"
-          class="shrink mt-1 hidden-sm-and-down"
-          contain
-          min-width="100"
-          src="https://cdn.vuetifyjs.com/images/logos/vuetify-name-dark.png"
-          width="100"
+          width="125"
         />
         <router-link to="/"> 
                 <v-btn
-                    :key="mdi-home"
+                  
                     class="mx-4"
                     icon
                   >   <v-icon size="24px">
@@ -34,7 +26,7 @@
 
         <router-link to="/About"> 
             <v-btn
-            :key="mdi-email"
+            
             class="mx-4"
             icon
           >   <v-icon size="24px">
@@ -70,9 +62,7 @@ export default {
 data () {
     return {
         icons: [
-          'mdi-home',
-          'mdi-email',
-        ]
+        ],
     }
   },
 };

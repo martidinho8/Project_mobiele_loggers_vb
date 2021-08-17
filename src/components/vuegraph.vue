@@ -18,20 +18,20 @@ export default {
             pointBorderColor: "black",
             backgroundColor: this.gradient,
             showLine: true,
-            data: [{x:1, y:1}, {x:2, y:2},{x:3, y:3}, {x:4, y:4}, {x:5, y:5}, {x:6, y:6}, {x:7, y:7}, {x:8, y:8}, {x:9, y:9}]
+            data: [{x:1, y:50}, {x:2, y:2},{x:3, y:3}, {x:4, y:4}, {x:5, y:5}, {x:6, y:6}, {x:7, y:7}, {x:8, y:8}, {x:9, y:9}]
             
           },
         ]
       },
       
-      // {
-      //   responsive: true,
-      //   maintainAspectRatio: false,
-      //       title: {
-      //         display: true,
-      //         text: "Osisoft PI data koppeling"
-      //     }
-      // },
+      {
+        responsive: true,
+        maintainAspectRatio: false,
+            title: {
+              display: true,
+              text: "Osisoft PI data koppeling"
+          }
+      },
       
     );
   }
