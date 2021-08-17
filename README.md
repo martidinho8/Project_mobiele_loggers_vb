@@ -2,7 +2,7 @@
 
 What?
 
-This is a simple API which can deduct Osisoft PI-AF data of mobile loggers to the application. 
+This is a simple APP which can deduct Osisoft PI-AF data of mobile loggers to the application.  
 
 Why?
 
